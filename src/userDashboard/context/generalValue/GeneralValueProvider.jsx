@@ -1,21 +1,14 @@
 import { GeneralContext } from "./GeneralValueContext";
 
 const GeneralValueProvider = ({ children }) => {
-  const phoneNumber = "*** *** 9279";
-  const checkingNav = "9515";
-  const savingNav = "9803";
-  const checkingRouNum = "021000089";
-  const countrtState = "Colorado";
-  const accountMoney = "Chime Checking:2071";
+  const phoneNumber = "*** *** 3732";
+  const checkingNav = "5562";
+  const savingNav = "9902";
+  const checkingRouNum = "026000082";
+  const countrtState = "Toronto";
+  const accountMoney = "TD Bank Checking:2071";
   const tyoeOfPhone = "iPhone (iPhone 14 pro max)";
 
-  // const phoneNumber = "*** *** 4177";
-  // const checkingNav = "2781";
-  // const savingNav = "2802";
-  // const checkingRouNum = "021000089";
-  // const countrtState = "New York";
-  // const accountMoney = "Chime Checking:2071";
-  // const tyoeOfPhone = "iPhone (iPhone 13 Pro Max)";
   return (
     <GeneralContext.Provider
       value={{
