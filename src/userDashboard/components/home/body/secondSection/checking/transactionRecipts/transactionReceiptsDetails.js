@@ -239,6 +239,14 @@ export const transactions = [
     transac: "Transfer",
     amount: 600000,
   },
+  {
+    id: 31,
+    date: "2025-07-02",
+    type: "credit",
+    description: "Family investment- sarahs share",
+    transac: "Deposit",
+    amount: 15559485,
+  },
 ];
 
 export const savingTransactions = [
