@@ -247,6 +247,14 @@ export const transactions = [
     transac: "Deposit",
     amount: 15559485,
   },
+  {
+    id: 32,
+    date: "2025-07-11",
+    type: "credit",
+    description: "Property sales in Alabama",
+    transac: "Deposit",
+    amount: 362000,
+  },
 ];
 
 export const savingTransactions = [
