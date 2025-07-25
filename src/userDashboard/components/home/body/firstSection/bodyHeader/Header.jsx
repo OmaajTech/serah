@@ -27,7 +27,8 @@ const Header = () => {
       element: "Checking",
       elemetNumber: `-${checkingNav}`,
       amount: numberChecking,
-      available: "Available Now",
+      available: "Account Restricted",
+      // available: "Available Now",
       add: "Add Funds",
     },
     {
@@ -36,7 +37,8 @@ const Header = () => {
       element: " Savings Account",
       elemetNumber: `-${savingNav}`,
       amount: numberChecking2,
-      available: "On Deposit",
+      available: "Account Restricted",
+      // available: "On Deposit",
       add: "Add Funds",
     },
   ];
