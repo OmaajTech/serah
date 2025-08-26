@@ -1,9 +1,9 @@
 import { GeneralContext } from "./GeneralValueContext";
 
 const GeneralValueProvider = ({ children }) => {
-  const phoneNumber = "*** *** 2803";
-  const checkingNav = "6799";
-  const savingNav = "4771";
+  const phoneNumber = "*** *** 1524";
+  const checkingNav = "6529";
+  const savingNav = "9336";
   const checkingRouNum = "021000089";
   const countrtState = "New York";
   const accountMoney = "TD Bank Checking:2071";

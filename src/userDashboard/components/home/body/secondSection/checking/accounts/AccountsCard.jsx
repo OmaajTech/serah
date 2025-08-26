@@ -13,18 +13,18 @@ const AccountsCard = ({ numberChecking, name }) => {
             </div>
             <div className="space-y-2">
               <p className="text-[15.2px] flex items-center gap-1">
-                Temporarily Restricted{" "}
+                {/* Temporarily Restricted{" "} */}
                 <AiOutlineInfoCircle size={24} className="mb-1" />
-                {/* Available Now <AiOutlineInfoCircle size={24} className="mb-1" /> */}
+                Available Now <AiOutlineInfoCircle size={24} className="mb-1" />
               </p>
               <h4 className="text-[42px]">${numberChecking}.00</h4>
             </div>
           </div>
           <div className="space-y-5">
             <p className="text-[15.2px] flex items-center gap-1">
-              Temporarily Restricted{" "}
+              {/* Temporarily Restricted{" "} */}
               <AiOutlineInfoCircle size={24} className="mb-1" />
-              {/* On Deposit <AiOutlineInfoCircle size={24} className="mb-1" /> */}
+              On Deposit <AiOutlineInfoCircle size={24} className="mb-1" />
             </p>
             <div className="space-y-2">
               <h4 className="text-2xl">${numberChecking}.00</h4>
