@@ -1,30 +1,23 @@
 export const transactions = [
   {
     id: 1,
-    date: "2025-08-22",
+    date: "2025-09-16",
+    description: "ONLINE TRANSFER TO CHEKINGS $25.00",
     type: "credit",
-    description: "WIRE TRANSFER CREDIT TRUST WALLET REF# 8347XXXX",
     transac: "Deposit",
-    amount: 42000,
-  },
-  {
-    id: 2,
-    date: "2025-08-24",
-    type: "credit",
-    description: "WIRE TRANSFER CREDIT FEDEX MANAGEMENT REF# 9274XXXX",
-    transac: "Deposit",
-    amount: 42000,
+    amount: 25,
   },
 ];
 
 export const savingTransactions = [
   {
     id: 1,
-    date: "2025-07-16",
-    description: "ONLINE TRANSFER TO SAVINGS $25.00",
+    date: "2025-10-04",
+    description:
+      "ACH CREDIT INVESTMENT PAYMENT REF: FUND TRANSFER ID: 22334455",
     type: "credit",
-    transac: "Deposit",
-    amount: 25,
+    transac: "Transfer",
+    amount: 90000,
   },
 ];
 

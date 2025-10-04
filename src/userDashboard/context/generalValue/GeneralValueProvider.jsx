@@ -1,11 +1,11 @@
 import { GeneralContext } from "./GeneralValueContext";
 
 const GeneralValueProvider = ({ children }) => {
-  const phoneNumber = "*** *** 0204";
-  const checkingNav = "8023";
-  const savingNav = "9215";
+  const phoneNumber = "*** *** 7341";
+  const checkingNav = "6741";
+  const savingNav = "3238";
   const checkingRouNum = "026000082";
-  const countrtState = "Ontario";
+  const countrtState = "Toronto";
   const accountMoney = "Capital One Checking:2071";
   const tyoeOfPhone = "iPhone (iPhone 15 pro max)";
 
