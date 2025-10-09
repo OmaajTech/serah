@@ -19,11 +19,11 @@ export const formDetails = [
 export const formDetails1 = [
   {
     id: 1,
-    label: "Checking-6741",
+    label: "Checking-4014",
   },
   {
     id: 2,
-    label: "Citi® Savings Account-3238",
+    label: "Citi® Savings Account-3661",
   },
   {
     id: 3,
