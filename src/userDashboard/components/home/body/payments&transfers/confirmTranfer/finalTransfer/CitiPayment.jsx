@@ -11,7 +11,7 @@ const CitiPayment = ({ cancel }) => {
   const [linkApproval, setLinkApproval] = useState(false);
   const { user } = useContext(AuthContext);
   const { tyoeOfPhone } = useContext(GeneralContext);
-  const atRemoved = user.email.indexOf("scarlet");
+  const atRemoved = user.email.indexOf("linh");
   // const atRemoved = user.email.indexOf("williams");
   const removetheAt = user.email.slice(0, atRemoved);
   const userName = removetheAt.replace(/[0-9]/g, "");
@@ -30,7 +30,7 @@ const CitiPayment = ({ cancel }) => {
         transition={{ type: "spring", stiffness: 300, damping: 50 }}
         className={clsx(
           "relative w-full  h-full  rounded-lg text-customGray-400  customMiniTablet:mt-8  customMiniTablet:w-[650px]",
-          linkApproval && "hidden"
+          linkApproval && "hidden",
         )}
       >
         <span

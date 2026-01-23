@@ -82,8 +82,8 @@ const router = createBrowserRouter(
 
         <Route path="*" element={<NotFound />} />
       </Route>
-    </>
-  )
+    </>,
+  ),
 );
 
 export default router;
