@@ -23,10 +23,10 @@ export const formDetails1 = [
   },
   {
     id: 2,
-    label: "Citi® Savings Account-2328",
+    label: "Citi® Savings Account-1384",
   },
   {
     id: 3,
-    label: "Chime Checking:2071",
+    label: "Chime Checking:9890",
   },
 ];
